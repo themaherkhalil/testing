@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 #from pulp import *
 #from lpsolve55 import *
 
-frame = Diabetes_FRAME809082
+frame = Diabetes_FRAME168256
 
 glucose_levels = frame['Blood_Glucose']
 feature_set = frame[['Regular_Insulin_Dose','Basal_Insulin_Dose','Exercise','Meal_Ingestion']]
